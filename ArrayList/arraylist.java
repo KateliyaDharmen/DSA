@@ -35,6 +35,7 @@ public class arraylist {
                 list.get(i).add(sc.nextInt());
             }
         }
+        sc.close();
         System.out.println(list);
     }
 }
